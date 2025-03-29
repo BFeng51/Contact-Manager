@@ -1,0 +1,339 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "First Name\r",
+					"top": 14,
+					"left": 33,
+					"width": 141,
+					"height": 32,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Last Name\r",
+					"top": 55,
+					"left": 33,
+					"width": 131,
+					"height": 32,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Email\r",
+					"top": 107,
+					"left": 33,
+					"width": 91,
+					"height": 32,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Phone",
+					"top": 159,
+					"left": 33,
+					"width": 109,
+					"height": 32,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Company",
+					"top": 203,
+					"left": 33,
+					"width": 107,
+					"height": 25,
+					"fontWeight": "bold",
+					"fontSize": 14
+				},
+				"Enter First Name": {
+					"type": "input",
+					"left": 33,
+					"top": 35,
+					"width": 220,
+					"height": 16,
+					"dataSource": "Form:C1466.FirstName"
+				},
+				"Enter Last Name": {
+					"type": "input",
+					"left": 33,
+					"top": 79,
+					"width": 220,
+					"height": 16,
+					"dataSource": "Form:C1466.LastName"
+				},
+				"Enter Email": {
+					"type": "input",
+					"left": 33,
+					"top": 130,
+					"width": 220,
+					"height": 16,
+					"dataSource": "Form:C1466.Email"
+				},
+				"Enter Phone Number": {
+					"type": "input",
+					"left": 33,
+					"top": 181,
+					"width": 220,
+					"height": 16,
+					"dataSource": "Form:C1466.Phone"
+				},
+				"Save": {
+					"type": "button",
+					"text": "Save",
+					"top": 257,
+					"left": 150,
+					"width": 103,
+					"height": 17,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Save.4dm"
+				},
+				"Cancel": {
+					"type": "button",
+					"text": "Close",
+					"top": 257,
+					"left": 33,
+					"width": 107,
+					"height": 17,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Cancel.4dm",
+					"action": "cancel"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 466,
+					"top": 14,
+					"width": 744,
+					"height": 209,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onBeforeKeystroke",
+						"onDataChange",
+						"onAfterKeystroke",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"method": "ObjectMethods/List Box.4dm",
+					"dataSource": "Form:C1466.selection",
+					"columns": [
+						{
+							"header": {
+								"text": "FirstName",
+								"name": "Header1"
+							},
+							"name": "FirstName",
+							"footer": {
+								"name": "Footer1"
+							},
+							"events": [
+								"onLoad"
+							],
+							"dataSource": "This:C1470.FirstName"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "LastName"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.LastName"
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Email"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.Email"
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Phone"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.Phone"
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "ContactID",
+								"dataSource": "[Contacts]ContactID"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.ContactID"
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Company"
+							},
+							"name": "Column6",
+							"footer": {
+								"name": "Footer6"
+							},
+							"dataSource": "This:C1470.CompanyName"
+						}
+					]
+				},
+				"Button": {
+					"type": "button",
+					"text": "Button",
+					"top": 329,
+					"left": 754,
+					"width": 1,
+					"height": 1,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Total Contacts",
+					"top": 276,
+					"left": 150,
+					"width": 103,
+					"height": 15,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Text6": {
+					"type": "text",
+					"text": "Search Contacts:",
+					"top": 228,
+					"left": 466,
+					"width": 209,
+					"height": 32,
+					"fontWeight": "bold",
+					"fontSize": 24
+				},
+				"Input": {
+					"type": "input",
+					"left": 672,
+					"top": 228,
+					"width": 538,
+					"height": 32,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onBeforeKeystroke",
+						"onAfterKeystroke"
+					],
+					"multiline": "no",
+					"method": "ObjectMethods/Input.4dm",
+					"dataSource": "Form:C1466.search"
+				},
+				"Select Company": {
+					"type": "dropdown",
+					"left": 33,
+					"top": 222,
+					"width": 220,
+					"height": 22,
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"dataSource": "Form:C1466.companies",
+					"method": "ObjectMethods/Select Company.4dm",
+					"dataSourceTypeHint": "object",
+					"focusable": true
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Company Details",
+					"top": 264,
+					"left": 466,
+					"width": 200,
+					"height": 27,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Clear Current Fields",
+					"top": 276,
+					"left": 33,
+					"width": 103,
+					"height": 15,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm"
+				}
+			}
+		}
+	],
+	"geometryStamp": 211,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "ContactFormOnLoad",
+	"inheritedFormTable": "Contact",
+	"inheritedForm": ""
+}

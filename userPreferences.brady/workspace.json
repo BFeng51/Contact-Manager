@@ -1,0 +1,260 @@
+{
+	"editors": [
+		{
+			"type": "form",
+			"id": 224,
+			"formName": "ContactInputForm"
+		},
+		{
+			"type": "explorer"
+		},
+		{
+			"type": "method",
+			"id": 2147483607,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "CompanyDetails",
+				"objectName": "Button",
+				"methodPath": "/SOURCES/Forms/CompanyDetails/ObjectMethods/Button.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 223,
+			"formName": "CompanyDetails"
+		},
+		{
+			"type": "method",
+			"id": 2147483635,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ORDAStartup"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483640,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ORDAAddContact"
+			}
+		},
+		{
+			"type": "structure"
+		},
+		{
+			"type": "method",
+			"id": 2147483636,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ORDASearchContacts"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483637,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ORDASearchCompanies"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483608,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "CompanyDetails",
+				"objectName": "Input4",
+				"methodPath": "/SOURCES/Forms/CompanyDetails/ObjectMethods/Input4.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483609,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactInputForm",
+				"objectName": "Input",
+				"methodPath": "/SOURCES/Forms/ContactInputForm/ObjectMethods/Input.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483610,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactInputForm",
+				"objectName": "Save",
+				"methodPath": "/SOURCES/Forms/ContactInputForm/ObjectMethods/Save.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483625,
+			"codeDescriptor": {
+				"type": 3,
+				"table": 1,
+				"formName": "ContactInputForm",
+				"methodPath": "/SOURCES/TableForms/1/ContactInputForm/method.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483616,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 1,
+				"formName": "ContactInputForm",
+				"objectName": "Select Company",
+				"methodPath": "/SOURCES/TableForms/1/ContactInputForm/ObjectMethods/Select Company.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 228,
+			"table": 1,
+			"formName": "ContactInputForm"
+		},
+		{
+			"type": "method",
+			"id": 2147483643,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ClassicStartup"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483611,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactInputForm",
+				"objectName": "Button3",
+				"methodPath": "/SOURCES/Forms/ContactInputForm/ObjectMethods/Button3.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483612,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "CompanyDetails",
+				"objectName": "Button2",
+				"methodPath": "/SOURCES/Forms/CompanyDetails/ObjectMethods/Button2.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483613,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 2,
+				"formName": "CompanyDetails",
+				"objectName": "Button3",
+				"methodPath": "/SOURCES/TableForms/2/CompanyDetails/ObjectMethods/Button3.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 229,
+			"table": 2,
+			"formName": "CompanyDetails"
+		},
+		{
+			"type": "method",
+			"id": 2147483638,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ORDADeleteAllContacts"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483614,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 2,
+				"formName": "CompanyDetails",
+				"objectName": "Button2",
+				"methodPath": "/SOURCES/TableForms/2/CompanyDetails/ObjectMethods/Button2.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483615,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactInputForm",
+				"objectName": "Button2",
+				"methodPath": "/SOURCES/Forms/ContactInputForm/ObjectMethods/Button2.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483617,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 1,
+				"formName": "ContactInputForm",
+				"objectName": "Button1",
+				"methodPath": "/SOURCES/TableForms/1/ContactInputForm/ObjectMethods/Button1.4dm"
+			}
+		},
+		{
+			"type": "toolbox"
+		},
+		{
+			"type": "method",
+			"id": 2147483644,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ClassicSearchContacts"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483618,
+			"codeDescriptor": {
+				"type": 2,
+				"table": 1,
+				"formName": "ContactInputForm",
+				"objectName": "Search Contact",
+				"methodPath": "/SOURCES/TableForms/1/ContactInputForm/ObjectMethods/Search Contact.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483647,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ClassicAddContact"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483634,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ORDATotalContacts"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483626,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "ContactInputForm",
+				"objectName": "List Box",
+				"methodPath": "/SOURCES/Forms/ContactInputForm/ObjectMethods/List Box.4dm"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483641,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "ClearContactInputs"
+			}
+		}
+	]
+}

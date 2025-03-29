@@ -1,0 +1,44 @@
+{
+	"tables": {
+		"Company": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 277,
+				"top": 0,
+				"width": 166,
+				"height": 153.33203125
+			},
+			"displayable_fields_count": 5
+		},
+		"Contact": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 32,
+				"top": 23,
+				"width": 162,
+				"height": 182.33203125
+			},
+			"displayable_fields_count": 6
+		}
+	},
+	"relations": {
+		"8C2FEAB0914CBA40B19CECC290C9CB46": {
+			"color": {
+				"red": 240,
+				"green": 240,
+				"blue": 240,
+				"alpha": 0
+			}
+		}
+	}
+}

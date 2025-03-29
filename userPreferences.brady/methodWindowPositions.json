@@ -1,0 +1,314 @@
+{
+	"Sources/Forms/Dashboard/ObjectMethods/Button1.4dm": {
+		"left": 0,
+		"top": 58,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/Dashboard/ObjectMethods/Button.4dm": {
+		"left": 0,
+		"top": 86,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/Dashboard/ObjectMethods/Button2.4dm": {
+		"left": 0,
+		"top": 88,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button.4dm": {
+		"left": 0,
+		"top": 106,
+		"width": 1536,
+		"height": 804
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button1.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Enter First Name.4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Save.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/ContactInputForm/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1536,
+		"height": 812
+	},
+	"Trash/Methods/(TotalCategories).4dm": {
+		"left": 0,
+		"top": 86,
+		"width": 1536,
+		"height": 812
+	},
+	"Trash/Methods/(SaveContact).4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Cancel.4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 860
+	},
+	"Trash/Methods/(OpenContactForm).4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1536,
+		"height": 812
+	},
+	"Trash/Methods/(CancelAddContact).4dm": {
+		"left": -4,
+		"top": 87,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button2.4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/List Box.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button3.4dm": {
+		"left": 6,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Trash/Methods/(SearchContacts).4dm": {
+		"left": 29,
+		"top": 369,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/method.4dm": {
+		"left": 4,
+		"top": 162,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button4.4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 860
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Input.4dm": {
+		"left": 0,
+		"top": 58,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Search Contact.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Triggers/table_1.4dm": {
+		"left": 0,
+		"top": 106,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/2/CompanyDetails/ObjectMethods/Button3.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/2/CompanyDetails/ObjectMethods/Button2.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/2/CompanyDetails/ObjectMethods/List Box.4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Select Company.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 548
+	},
+	"Sources/Methods/ClassicStartup.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 817
+	},
+	"Sources/Methods/ORDAStartup.4dm": {
+		"left": -13100,
+		"top": 50,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ClassicTotalContacts.4dm": {
+		"left": 6,
+		"top": 106,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ORDATotalContacts.4dm": {
+		"left": 6,
+		"top": 108,
+		"width": 1536,
+		"height": 804
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Button1.4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ClassicAddContact.4dm": {
+		"left": 6,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ClassicDeleteAllContacts.4dm": {
+		"left": -62,
+		"top": 107,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ClassicDeleteAllCompanies.4dm": {
+		"left": -63,
+		"top": 310,
+		"width": 1536,
+		"height": 804
+	},
+	"Sources/Methods/ORDADeleteAllCompanies.4dm": {
+		"left": 0,
+		"top": 106,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ORDADeleteAllContacts.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 817
+	},
+	"Sources/Methods/ClassicSearchContacts.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 817
+	},
+	"Sources/Methods/ORDASearchContacts.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 817
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Input.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/List Box.4dm": {
+		"left": 6,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ORDAAddContact.4dm": {
+		"left": -12800,
+		"top": 50,
+		"width": 1536,
+		"height": 812
+	},
+	"Trash/Methods/(ContactFormOnLoad).4dm": {
+		"left": 0,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Popup Dropdown List.4dm": {
+		"left": 0,
+		"top": 106,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Select Company.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1536,
+		"height": 860
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Button2.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/CompanyDetails/method.4dm": {
+		"left": 0,
+		"top": 78,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/CompanyDetails/ObjectMethods/Button.4dm": {
+		"left": -13100,
+		"top": 50,
+		"width": 1522,
+		"height": 798
+	},
+	"Sources/Forms/CompanyDetails/ObjectMethods/Button2.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ClearContactInputs.4dm": {
+		"left": 6,
+		"top": 108,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Button3.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Methods/ORDASearchCompanies.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	},
+	"Sources/Forms/CompanyDetails/ObjectMethods/Input4.4dm": {
+		"left": -13100,
+		"top": -13000,
+		"width": 1536,
+		"height": 812
+	}
+}

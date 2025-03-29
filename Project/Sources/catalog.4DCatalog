@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="ContactManager" uuid="89896B5C238493489357A44BF7831235" collation_locale="en-ca">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Contact" uuid="E39CDAC91584554FA11E3F44055EE1BD" id="1" prevent_journaling="true">
+		<field name="ContactID" uuid="E22709E7A19772408F9CBEABAADA1378" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="FirstName" uuid="FF46588CABF3EE40A436DD042A0A0F3A" type="10" limiting_length="20" id="2"/>
+		<field name="LastName" uuid="3A990F1E7D633145A22C5D97A93F0DAF" type="10" limiting_length="20" id="3"/>
+		<field name="Phone" uuid="207BC1877471154BB877008871873C14" type="10" id="4"/>
+		<field name="Email" uuid="4F87B82FFECD964FA8E6FB972CCC07FE" type="10" limiting_length="50" id="5"/>
+		<field name="CompanyName" uuid="F49D615243BB104BA78390171E83EB32" type="10" limiting_length="255" id="6"/>
+		<field name="ContactID2" uuid="0BBCBB97EC8D094198A03519D64D3D9D" type="10" unique="true" autogenerate="true" store_as_UUID="true" id="7"/>
+		<primary_key field_name="ContactID2" field_uuid="0BBCBB97EC8D094198A03519D64D3D9D"/>
+		<table_extra input_form="ContactInputForm" output_form="ContactInputForm">
+			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<table name="Company" uuid="E4B8CFD4AA0DD24EA56CBD004040DBBC" id="2">
+		<field name="CompanyID" uuid="A8757B26B6ECC2459CD01EA6E55EC08C" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Industry" uuid="DD25B503D1119E4C91273C1AE67C188F" type="10" limiting_length="255" id="2"/>
+		<field name="Description" uuid="571C8221E288E0409B7E54B4ED81F231" type="10" limiting_length="255" id="3"/>
+		<field name="HQ" uuid="315423E440DD7D418504BD9E7095A986" type="10" limiting_length="5" id="4"/>
+		<field name="CompanyName" uuid="8637144CA23B034F81FE1C9590E3FCAB" type="10" limiting_length="255" id="5"/>
+		<primary_key field_name="CompanyID" field_uuid="A8757B26B6ECC2459CD01EA6E55EC08C"/>
+		<table_extra>
+			<editor_table_info fields_ordering="1" displayable_fields_count="6">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="240" top="40" width="120" height="167.33203125"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<relation uuid="8C2FEAB0914CBA40B19CECC290C9CB46" name_Nto1="Link_3" name_1toN="Link_3_return" auto_load_Nto1="false" auto_load_1toN="true" foreign_key="false" state="1">
+		<related_field kind="source">
+			<field_ref uuid="F49D615243BB104BA78390171E83EB32" name="CompanyName">
+				<table_ref uuid="E39CDAC91584554FA11E3F44055EE1BD" name="Contact"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="8637144CA23B034F81FE1C9590E3FCAB" name="CompanyName">
+				<table_ref uuid="E4B8CFD4AA0DD24EA56CBD004040DBBC" name="Company"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<index kind="regular" unique_keys="true" uuid="0E827EA6B33F634CA68F571A7FCB17C9" type="1">
+		<field_ref uuid="0BBCBB97EC8D094198A03519D64D3D9D" name="ContactID2">
+			<table_ref uuid="E39CDAC91584554FA11E3F44055EE1BD" name="Contact"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="369B71F65947C248B5421423C6C14AC8" type="7">
+		<field_ref uuid="E22709E7A19772408F9CBEABAADA1378" name="ContactID">
+			<table_ref uuid="E39CDAC91584554FA11E3F44055EE1BD" name="Contact"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="8DCC6F55DAA860408370F2938C958E69" type="7">
+		<field_ref uuid="A8757B26B6ECC2459CD01EA6E55EC08C" name="CompanyID">
+			<table_ref uuid="E4B8CFD4AA0DD24EA56CBD004040DBBC" name="Company"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="AC77ED2E1B2E604FB52D8A028BF7ABF3" type="7">
+		<field_ref uuid="DD25B503D1119E4C91273C1AE67C188F" name="Industry">
+			<table_ref uuid="E4B8CFD4AA0DD24EA56CBD004040DBBC" name="Company"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="C63F830F19820040972264DDFB665CE6" type="7">
+		<field_ref uuid="4F87B82FFECD964FA8E6FB972CCC07FE" name="Email">
+			<table_ref uuid="E39CDAC91584554FA11E3F44055EE1BD" name="Contact"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E86365AEF5BF364798A2522152E3A3DE" type="7">
+		<field_ref uuid="8637144CA23B034F81FE1C9590E3FCAB" name="CompanyName">
+			<table_ref uuid="E4B8CFD4AA0DD24EA56CBD004040DBBC" name="Company"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="true"/>
+	</base_extra>
+</base>

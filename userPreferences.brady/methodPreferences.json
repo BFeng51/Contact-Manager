@@ -1,0 +1,470 @@
+{
+	"Sources/Forms/Dashboard/ObjectMethods/Button1.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-24T17:20:00.394Z"
+	},
+	"Sources/Forms/Dashboard/ObjectMethods/Button.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-24T17:16:56.049Z"
+	},
+	"Sources/Forms/Dashboard/ObjectMethods/Button2.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-24T17:47:46.303Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-31T19:57:48.981Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button1.4dm": {
+		"startSelection": 26,
+		"endSelection": 26,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-06T18:28:21.682Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Enter First Name.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-28T23:03:34.856Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Save.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T16:20:11.538Z"
+	},
+	"Sources/Forms/ContactInputForm/method.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-29T21:50:34.147Z"
+	},
+	"Trash/Methods/(TotalCategories).4dm": {
+		"startSelection": 42,
+		"endSelection": 42,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-24T16:34:12.563Z"
+	},
+	"Trash/Methods/(SaveContact).4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-30T23:57:02.804Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Cancel.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-31T20:57:24.484Z"
+	},
+	"Trash/Methods/(OpenContactForm).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-29T22:07:15.618Z"
+	},
+	"Trash/Methods/(CancelAddContact).4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-31T19:28:21.371Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button2.4dm": {
+		"startSelection": 11,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-04T16:50:47.639Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/List Box.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-05T19:26:41.376Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button3.4dm": {
+		"startSelection": 11,
+		"endSelection": 11,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-03T17:20:25.935Z"
+	},
+	"Trash/Methods/(SearchContacts).4dm": {
+		"startSelection": 39,
+		"endSelection": 39,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-24T17:54:10.353Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-05T19:24:54.853Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Button4.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-06T18:25:57.002Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Input.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-05T19:57:51.571Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Search Contact.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-11T18:28:56.990Z"
+	},
+	"Sources/Triggers/table_1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-06T17:07:39.968Z"
+	},
+	"Sources/TableForms/2/CompanyDetails/ObjectMethods/Button3.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-06T20:32:55.826Z"
+	},
+	"Sources/TableForms/2/CompanyDetails/ObjectMethods/Button2.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-06T21:01:02.232Z"
+	},
+	"Sources/TableForms/2/CompanyDetails/ObjectMethods/List Box.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-06T22:52:12.430Z"
+	},
+	"Sources/TableForms/1/ContactInputForm/ObjectMethods/Select Company.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 8,
+		"lastSelectedLine": 8,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-07T19:29:28.883Z"
+	},
+	"Sources/Methods/ClassicStartup.4dm": {
+		"startSelection": 5,
+		"endSelection": 5,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-05T22:52:27.526Z"
+	},
+	"Sources/Methods/ORDAStartup.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-10T16:37:54.368Z"
+	},
+	"Sources/Methods/ClassicTotalContacts.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-04T19:43:38.947Z"
+	},
+	"Sources/Methods/ORDATotalContacts.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-10T23:19:48.489Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Button1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-10T23:19:48.505Z"
+	},
+	"Sources/Methods/ClassicAddContact.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-01-31T19:49:50.395Z"
+	},
+	"Sources/Methods/ClassicDeleteAllContacts.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-05T19:15:28.061Z"
+	},
+	"Sources/Methods/ClassicDeleteAllCompanies.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-07T17:48:49.453Z"
+	},
+	"Sources/Methods/ORDADeleteAllCompanies.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-11T18:00:39.844Z"
+	},
+	"Sources/Methods/ORDADeleteAllContacts.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-11T18:09:05.783Z"
+	},
+	"Sources/Methods/ClassicSearchContacts.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-11T18:20:24.561Z"
+	},
+	"Sources/Methods/ORDASearchContacts.4dm": {
+		"startSelection": 60,
+		"endSelection": 60,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T23:25:04.070Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Input.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T16:39:22.498Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/List Box.4dm": {
+		"startSelection": 2,
+		"endSelection": 2,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T15:42:41.696Z"
+	},
+	"Sources/Methods/ORDAAddContact.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-13T19:44:56.435Z"
+	},
+	"Trash/Methods/(ContactFormOnLoad).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-11T22:51:41.178Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Popup Dropdown List.4dm": {
+		"startSelection": 17,
+		"endSelection": 27,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T18:09:20.010Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Select Company.4dm": {
+		"startSelection": 7,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-14T17:09:41.448Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Button2.4dm": {
+		"startSelection": 18,
+		"endSelection": 18,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T20:35:50.607Z"
+	},
+	"Sources/Forms/CompanyDetails/method.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T20:36:56.485Z"
+	},
+	"Sources/Forms/CompanyDetails/ObjectMethods/Button.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-12T21:14:26.915Z"
+	},
+	"Sources/Forms/CompanyDetails/ObjectMethods/Button2.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-13T17:27:13.816Z"
+	},
+	"Sources/Methods/ClearContactInputs.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-06T18:25:56.971Z"
+	},
+	"Sources/Forms/ContactInputForm/ObjectMethods/Button3.4dm": {
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-13T17:35:09.798Z"
+	},
+	"Sources/Methods/ORDASearchCompanies.4dm": {
+		"startSelection": 33,
+		"endSelection": 33,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-14T23:15:46.685Z"
+	},
+	"Sources/Forms/CompanyDetails/ObjectMethods/Input4.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2025-02-14T17:21:59.371Z"
+	}
+}

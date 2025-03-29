@@ -1,0 +1,238 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"text": "Company Name",
+					"top": 14,
+					"left": 14,
+					"width": 107,
+					"height": 15
+				},
+				"Text1": {
+					"type": "text",
+					"text": "HQ",
+					"top": 55,
+					"left": 14,
+					"width": 82,
+					"height": 30
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Industry",
+					"top": 91,
+					"left": 14,
+					"width": 177,
+					"height": 15
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Description",
+					"top": 128,
+					"left": 13,
+					"width": 152,
+					"height": 15
+				},
+				"Input": {
+					"type": "input",
+					"left": 13,
+					"top": 34,
+					"width": 217,
+					"height": 16,
+					"dataSource": "Form:C1466.CompanyName"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 13,
+					"top": 70,
+					"width": 217,
+					"height": 16,
+					"dataSource": "Form:C1466.HQ"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 14,
+					"top": 105,
+					"width": 216,
+					"height": 16,
+					"dataSource": "Form:C1466.Industry"
+				},
+				"Input3": {
+					"type": "input",
+					"left": 14,
+					"top": 147,
+					"width": 216,
+					"height": 16,
+					"dataSource": "Form:C1466.Description"
+				},
+				"Button": {
+					"type": "button",
+					"text": "Add",
+					"top": 168,
+					"left": 126,
+					"width": 104,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Close",
+					"top": 208,
+					"left": 13,
+					"width": 217,
+					"height": 30,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Clear Inputs",
+					"top": 168,
+					"left": 13,
+					"width": 104,
+					"height": 32,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 265,
+					"top": 14,
+					"width": 509,
+					"height": 243,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.selection",
+					"columns": [
+						{
+							"header": {
+								"text": "Company Name",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "This:C1470.CompanyName"
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "HQ"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "This:C1470.HQ"
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Industry"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							},
+							"dataSource": "This:C1470.Industry"
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Description"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "This:C1470.Description"
+						}
+					]
+				},
+				"Text4": {
+					"type": "text",
+					"text": "Search Companies:",
+					"top": 272,
+					"left": 265,
+					"width": 108,
+					"height": 30
+				},
+				"Input4": {
+					"type": "input",
+					"left": 398,
+					"top": 271,
+					"width": 336,
+					"height": 32,
+					"method": "ObjectMethods/Input4.4dm",
+					"multiline": "no",
+					"dataSource": "Form:C1466.search",
+					"events": [
+						"onLoad",
+						"onClick"
+					],
+					"showSelection": false
+				}
+			}
+		}
+	],
+	"inheritedFormTable": "Company",
+	"geometryStamp": 82,
+	"inheritedForm": "",
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

@@ -1,0 +1,230 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Button1": {
+					"type": "button",
+					"text": "CLOSE",
+					"top": 355,
+					"left": 18,
+					"width": 196,
+					"height": 112,
+					"events": [
+						"onClick"
+					],
+					"action": "cancel"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Add Company:",
+					"top": 6,
+					"left": 24,
+					"width": 220,
+					"height": 32,
+					"fontSize": 24,
+					"fontWeight": "bold"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Add",
+					"top": 302,
+					"left": 118,
+					"width": 80,
+					"height": 33,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Company Name",
+					"top": 48,
+					"left": 24,
+					"width": 144,
+					"height": 30,
+					"fontWeight": "bold"
+				},
+				"Text3": {
+					"type": "text",
+					"text": "Description",
+					"top": 190,
+					"left": 26,
+					"width": 104,
+					"height": 30,
+					"fontWeight": "bold"
+				},
+				"Text4": {
+					"type": "text",
+					"text": "HQ",
+					"top": 90,
+					"left": 24,
+					"width": 88,
+					"height": 30,
+					"fontWeight": "bold"
+				},
+				"Text5": {
+					"type": "text",
+					"text": "Industry",
+					"top": 140,
+					"left": 26,
+					"width": 78,
+					"height": 45,
+					"fontWeight": "bold"
+				},
+				"Input": {
+					"type": "input",
+					"left": 26,
+					"top": 66,
+					"width": 170,
+					"height": 16,
+					"dataSource": "Form:C1466.CompanyName"
+				},
+				"Input1": {
+					"type": "input",
+					"left": 26,
+					"top": 212,
+					"width": 172,
+					"height": 80,
+					"dataSource": "Form:C1466.Description"
+				},
+				"Input2": {
+					"type": "input",
+					"left": 24,
+					"top": 110,
+					"width": 170,
+					"height": 16,
+					"dataSource": "Form:C1466.HQ"
+				},
+				"Input3": {
+					"type": "input",
+					"left": 26,
+					"top": 163,
+					"width": 174,
+					"height": 16,
+					"dataSource": "Form:C1466.Industry"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Clear Inputs",
+					"top": 302,
+					"left": 26,
+					"width": 84,
+					"height": 33,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 247,
+					"top": 11,
+					"width": 501,
+					"height": 456,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"method": "ObjectMethods/List Box.4dm",
+					"listboxType": "currentSelection",
+					"table": "Company",
+					"singleClickEdit": true,
+					"columns": [
+						{
+							"header": {
+								"text": "Company Name",
+								"name": "Header1",
+								"dataSource": ""
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "[Details:2]CompanyName:5"
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "HQ"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer4"
+							},
+							"dataSource": "[Details:2]HQ:4",
+							"width": 148,
+							"truncateMode": "none"
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Industry"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "[Details:2]Industry:2"
+						},
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Description"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"dataSource": "[Details:2]Description:3"
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 131,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

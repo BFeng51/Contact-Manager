@@ -1,0 +1,195 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Text": {
+					"type": "text",
+					"top": 7,
+					"left": 471,
+					"width": 361,
+					"height": 32,
+					"textAlign": "right",
+					"text": "Contact Manager Dashboard",
+					"fill": "transparent",
+					"fontWeight": "bold",
+					"fontStyle": "normal",
+					"textDecoration": "underline",
+					"fontSize": 24
+				},
+				"Plugin Area": {
+					"type": "plugin",
+					"left": 44,
+					"top": 13,
+					"width": 1,
+					"height": 1
+				},
+				"Button": {
+					"type": "button",
+					"text": "Total Contacts",
+					"top": 633,
+					"left": 30,
+					"width": 117,
+					"height": 44,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Total Categories",
+					"top": 633,
+					"left": 266,
+					"width": 117,
+					"height": 44,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Form.searchText": {
+					"type": "input",
+					"left": 1210,
+					"top": 129,
+					"width": 167,
+					"height": 48,
+					"dataSource": "Form:C1466.searchText"
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Search",
+					"top": 49,
+					"left": 1259,
+					"width": 110,
+					"height": 60,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm"
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 447,
+					"top": 72,
+					"width": 476,
+					"height": 209,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"header": {
+								"text": "FirstName",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							}
+						},
+						{
+							"header": {
+								"name": "Header3",
+								"text": "LastName"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							}
+						},
+						{
+							"header": {
+								"name": "Header4",
+								"text": "Email"
+							},
+							"name": "Column4",
+							"footer": {
+								"name": "Footer4"
+							}
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Phone"
+							},
+							"name": "Column5",
+							"footer": {
+								"name": "Footer5"
+							}
+						}
+					]
+				},
+				"List Box1": {
+					"type": "listbox",
+					"left": 459,
+					"top": 150,
+					"width": 1,
+					"height": 1,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"columns": [
+						{
+							"header": {
+								"text": "Header1",
+								"name": "Header2"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							}
+						}
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 77,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
